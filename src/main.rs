@@ -26,4 +26,12 @@ fn main() {
     // Tuples: i used tuples to return all my other datas
     let mixture = (PI, is_name, letter, array);
     print!("\n\n{:#?}", mixture.3[2]);
+
+    // Control Flows
+    if array.len() == 3 {
+        print!("\n Is successful")
+    }else {
+        print!("\n Not Successful")
+    }
+
 }
