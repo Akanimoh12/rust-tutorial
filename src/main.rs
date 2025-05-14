@@ -19,10 +19,11 @@ fn main() {
     let letter = "A";
     print!("\n\n{}", letter);
 
-    
+    // array    
     let array   = ["Hello", "Hi", "Great"];
     print!("\n{:#?}", array[0]);
 
+    // Tuples: i used tuples to return all my other datas
     let mixture = (PI, is_name, letter, array);
     print!("\n\n{:#?}", mixture.3[2]);
 }
