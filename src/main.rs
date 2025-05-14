@@ -4,5 +4,8 @@ fn main() {
 
     let a = 6;
     let b = 7;
-    println!("{}", a + b);
+    println!("\n{}", a + b );
+
+    const PI: f64 = 3.123;
+    println!("\n{}", PI );
 }
