@@ -34,4 +34,16 @@ fn main() {
         print!("\n Not Successful")
     }
 
+    let name = "Christiana".to_string();
+    print!("\nv1: {}", name);
+
+    let mut new_name = name.as_str();
+    print!("\n\nv2: {}\n", new_name);
+
+    new_name = "Tali";
+    print!("\n New v2: {} \n\n", new_name);
+
+    print!("\n name {} \n\n", name);
+
+
 }
