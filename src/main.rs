@@ -1,4 +1,26 @@
+#(derive)
+struct Student {
+        name: String,
+        reg_number: u32,
+        age: u8,
+        gender: String,
+        is_graduate: bool,
+        email: String,
+    }
+
 fn main() {
+
+    let student = Student {
+    name: String::from("Akanimoh"),
+    reg_number:1,
+    age:16,
+    gender: String::from("Akanimoh"),
+    is_graduate: true,
+    email:"akanimoh@gmail.com".to_string(),
+    };
+
+
+
     // Number Data Type
     let x = 6;
     println!("Hello world and {}", x);
@@ -43,7 +65,9 @@ fn main() {
     new_name = "Tali";
     print!("\n New v2: {} \n\n", new_name);
 
-    print!("\n name {} \n\n", name);
+    // print!("\n name {} \n\n", name);
+
+    
 
 
 }
