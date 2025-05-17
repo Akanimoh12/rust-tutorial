@@ -29,7 +29,7 @@ impl Student {
 
 fn main() {
 
-    // Using Impl to pass a function and pass the value here
+    // Using Impl to pass a function 
     // Student.print();
 
 
@@ -38,12 +38,12 @@ fn main() {
     name: String::from("Akanimoh"),
     reg_number:1,
     age:16,
-    gender: String::from("Akanimoh"),
+    gender: String::from("Male"),
     is_graduate: true,
-    email:"akanimoh@gmail.com".to_string(),
+    email:"akanimohjohnson2003@gmail.com".to_string(),
     };
 
-    print!("{:#?}", student);
+    print!("Information of : {:#?}", student);
 
 
 
