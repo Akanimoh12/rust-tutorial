@@ -8,8 +8,32 @@ struct Student {
         email: String,
     }
 
+impl Student {
+
+    // Normal method
+    fn student1(name: String,
+        reg_number: u32,
+        age: u8,
+        gender: String,
+        is_graduate: bool,
+        email: String) -> Student {
+            Student{name, reg_number, age, gender, is_graduate, email}
+    }
+
+    // Associative Meethod
+    fn print(&self) {
+        print!("{} \n {}\n {}\n {}\n {}\n {}", self.name, self.reg_number, self.age, self.gender, self.is_graduate, self.email)
+    }
+
+}
+
 fn main() {
 
+    // Using Impl to pass a function and pass the value here
+    // Student.print();
+
+
+    // Using Normal Struct to passing the values
     let student = Student {
     name: String::from("Akanimoh"),
     reg_number:1,
