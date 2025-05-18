@@ -47,7 +47,7 @@ fn main() {
 
 
 
-    // // Number Data Type
+    // Number Data Type
     // let x = 6;
     // println!("Hello world and {}", x);
 
