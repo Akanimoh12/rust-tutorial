@@ -29,8 +29,8 @@ impl Student {
 
 fn main() {
 
-    // Using Impl to pass a function 
-    // Student.print();
+    Using Impl to pass a function 
+    Student.print();
 
 
     // Using Normal Struct to passing the values
