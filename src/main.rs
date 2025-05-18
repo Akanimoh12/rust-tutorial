@@ -29,7 +29,7 @@ impl Student {
 
 fn main() {
 
-    Using Impl to pass a function 
+    // Using Impl to pass a function 
     Student.print();
 
 
