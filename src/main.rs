@@ -29,21 +29,22 @@ impl Student {
 
 fn main() {
 
+
     // Using Impl to pass a function 
-    Student.print();
+    // Student.print();
 
 
     // Using Normal Struct to passing the values
-    let student = Student {
-    name: String::from("Akanimoh"),
-    reg_number:1,
-    age:16,
-    gender: String::from("Male"),
-    is_graduate: true,
-    email:"akanimohjohnson2003@gmail.com".to_string(),
-    };
+    // let student = Student {
+    // name: String::from("Akanimoh"),
+    // reg_number:1,
+    // age:16,
+    // gender: String::from("Male"),
+    // is_graduate: true,
+    // email:"akanimohjohnson2003@gmail.com".to_string(),
+    // };
 
-    print!("Information of : {:#?}", student);
+    // print!("Information of : {:#?}", student);
 
 
 
