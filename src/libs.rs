@@ -14,10 +14,10 @@
         #[test]
         fn test_add() {
 
-            let a: u64 = 21;
+            let a: u64 = 2;
             let b: u64 = 21;
             let result = add(a, b);
             println!("{}", result);
-            assert_eq!(result, 42);
+            assert_eq!(result, 23);
         }
     }
