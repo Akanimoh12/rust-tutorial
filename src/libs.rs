@@ -15,9 +15,9 @@
         fn test_add() {
 
             let a: u64 = 2;
-            let b: u64 = 21;
+            let b: u64 = 2;
             let result = add(a, b);
             println!("{}", result);
-            assert_eq!(result, 23);
+            assert_eq!(result, 4);
         }
     }
